@@ -1,0 +1,84 @@
+{
+  "uid" : "dff8fb4c2673d03c",
+  "name" : "testExceptionCheckNull()",
+  "fullName" : "org.example.HW4.TriangleTest.testExceptionCheckNull",
+  "historyId" : "9215ae0097873ba0fe7bb1604c866fd4",
+  "time" : {
+    "start" : 1660928137459,
+    "stop" : 1660928137475,
+    "duration" : 16
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:org.example.HW4.TriangleTest]/[method:testExceptionCheckNull()]"
+  }, {
+    "name" : "host",
+    "value" : "WIN-LD0UV456BN0"
+  }, {
+    "name" : "thread",
+    "value" : "10148@WIN-LD0UV456BN0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "org.example.HW4.TriangleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "org.example.HW4.TriangleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testExceptionCheckNull"
+  }, {
+    "name" : "suite",
+    "value" : "org.example.HW4.TriangleTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bcf95d3b21694f3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660928109382,
+        "stop" : 1660928109392,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "9c9985cc313cafa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660928044572,
+        "stop" : 1660928044588,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "43f1962ebf8c8ce9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1660927650959,
+        "stop" : 1660927650959,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dff8fb4c2673d03c.json",
+  "parameterValues" : [ ]
+}

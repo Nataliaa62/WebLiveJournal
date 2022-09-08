@@ -1,0 +1,60 @@
+{
+  "uid" : "9e0b78db49fb04af",
+  "name" : "cvvv()",
+  "fullName" : "HW5.cc.cvvv",
+  "historyId" : "d8e9a25c3de94c6169a6b01877c45d5c",
+  "time" : {
+    "start" : 1661507399416,
+    "stop" : 1661507441641,
+    "duration" : 42225
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:HW5.cc]/[method:cvvv()]"
+  }, {
+    "name" : "host",
+    "value" : "WIN-LD0UV456BN0"
+  }, {
+    "name" : "thread",
+    "value" : "7876@WIN-LD0UV456BN0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "HW5.cc"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5.cc"
+  }, {
+    "name" : "testMethod",
+    "value" : "cvvv"
+  }, {
+    "name" : "suite",
+    "value" : "HW5.cc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e0b78db49fb04af.json",
+  "parameterValues" : [ ]
+}

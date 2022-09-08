@@ -1,0 +1,58 @@
+{
+  "uid" : "f3cf85f43e22dffe",
+  "name" : "testCreatePost()",
+  "fullName" : "HW5.AppMain.testCreatePost",
+  "historyId" : "a5777732bfef5b2add4a806024d5bf54",
+  "time" : {
+    "start" : 1661091691429,
+    "stop" : 1661091736659,
+    "duration" : 45230
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:HW5.AppMain]/[method:testCreatePost()]"
+  }, {
+    "name" : "host",
+    "value" : "WIN-LD0UV456BN0"
+  }, {
+    "name" : "thread",
+    "value" : "11252@WIN-LD0UV456BN0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "HW5.AppMain"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5.AppMain"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreatePost"
+  }, {
+    "name" : "suite",
+    "value" : "HW5.AppMain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3cf85f43e22dffe.json",
+  "parameterValues" : [ ]
+}

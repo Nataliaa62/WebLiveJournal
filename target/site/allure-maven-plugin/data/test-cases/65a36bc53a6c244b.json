@@ -1,0 +1,604 @@
+{
+  "uid" : "65a36bc53a6c244b",
+  "name" : "testCreatePost()",
+  "fullName" : "HW5.AppMain.testCreatePost",
+  "historyId" : "a5777732bfef5b2add4a806024d5bf54",
+  "time" : {
+    "start" : 1661535913227,
+    "stop" : 1661535941630,
+    "duration" : 28403
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:HW5.AppMain]/[method:testCreatePost()]"
+  }, {
+    "name" : "host",
+    "value" : "WIN-LD0UV456BN0"
+  }, {
+    "name" : "thread",
+    "value" : "2556@WIN-LD0UV456BN0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "HW5.AppMain"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5.AppMain"
+  }, {
+    "name" : "testMethod",
+    "value" : "testCreatePost"
+  }, {
+    "name" : "suite",
+    "value" : "HW5.AppMain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1eb070c07850f40c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661531260735,
+        "stop" : 1661531312001,
+        "duration" : 51266
+      }
+    }, {
+      "uid" : "20a0de27064d4bca",
+      "status" : "failed",
+      "statusDetails" : "Не та страница ==> expected: <Lorem: natalia6262 — ЖЖ> but was: <Lorem: natalia6262 — LiveJournal>",
+      "time" : {
+        "start" : 1661530422388,
+        "stop" : 1661530469312,
+        "duration" : 46924
+      }
+    }, {
+      "uid" : "6f8a3e2bd6faa0a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661515507189,
+        "stop" : 1661515559585,
+        "duration" : 52396
+      }
+    }, {
+      "uid" : "6209bc9284906467",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".aentry-post__title-text\"}\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [931a638978655205ba4faf18d8a6626b, findElement {using=css selector, value=.aentry-post__title-text}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51363/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 931a638978655205ba4faf18d8a6626b",
+      "time" : {
+        "start" : 1661514735929,
+        "stop" : 1661514839657,
+        "duration" : 103728
+      }
+    }, {
+      "uid" : "b2d841746f7af7c4",
+      "status" : "failed",
+      "statusDetails" : "Страница не доступна ==> Unexpected exception thrown: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [46895384d7feb04e8290d5d21a7b3527, get {url=https://www.livejournal.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50372}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50372/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 46895384d7feb04e8290d5d21a7b3527",
+      "time" : {
+        "start" : 1661514384624,
+        "stop" : 1661514403246,
+        "duration" : 18622
+      }
+    }, {
+      "uid" : "652a2e7b32b268f4",
+      "status" : "broken",
+      "statusDetails" : "invalid cookie domain\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [688a70d19c63819bf958f385646b653e, addCookie {cookie=_ga=GA1.2.2093716145.1661511443; path=/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63888}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63888/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 688a70d19c63819bf958f385646b653e",
+      "time" : {
+        "start" : 1661511594013,
+        "stop" : 1661511662026,
+        "duration" : 68013
+      }
+    }, {
+      "uid" : "af251800fcc526dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661511130888,
+        "stop" : 1661511290055,
+        "duration" : 159167
+      }
+    }, {
+      "uid" : "63edd36248e9204c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661510623134,
+        "stop" : 1661510676939,
+        "duration" : 53805
+      }
+    }, {
+      "uid" : "33f9a019318c425",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661510172436,
+        "stop" : 1661510206132,
+        "duration" : 33696
+      }
+    }, {
+      "uid" : "c556eccad1ef8deb",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".aentry-post__title-text\"}\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [47858e2eb7f941f9f362aee68e9d71e2, findElement {using=css selector, value=.aentry-post__title-text}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59546/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 47858e2eb7f941f9f362aee68e9d71e2",
+      "time" : {
+        "start" : 1661509554321,
+        "stop" : 1661509683588,
+        "duration" : 129267
+      }
+    }, {
+      "uid" : "e041aaac2de45024",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661509018746,
+        "stop" : 1661509143254,
+        "duration" : 124508
+      }
+    }, {
+      "uid" : "126d397f7a309bf4",
+      "status" : "broken",
+      "statusDetails" : "unexpected alert open: {Alert text : Сохранить сделанные изменения?}\n  (Session info: chrome=104.0.5112.102): Сохранить сделанные изменения?\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a900b4182218ff780b5e3785f94cbeef, addCookie {cookie=_ga=GA1.2.1144109032.1661508276; path=/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:57450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57450/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a900b4182218ff780b5e3785f94cbeef",
+      "time" : {
+        "start" : 1661508457583,
+        "stop" : 1661508458864,
+        "duration" : 1281
+      }
+    }, {
+      "uid" : "1ab8382fef5e28f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661507992315,
+        "stop" : 1661508041906,
+        "duration" : 49591
+      }
+    }, {
+      "uid" : "8cf9121c02db8744",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661505158361,
+        "stop" : 1661505347455,
+        "duration" : 189094
+      }
+    }, {
+      "uid" : "d1211515c7f1f13f",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".aentry-post__title-text\"}\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [fb13c886b994d1867afd18359ce13175, findElement {using=css selector, value=.aentry-post__title-text}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53307}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53307/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fb13c886b994d1867afd18359ce13175",
+      "time" : {
+        "start" : 1661504747462,
+        "stop" : 1661504841545,
+        "duration" : 94083
+      }
+    }, {
+      "uid" : "c9648cc4a352d186",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".\\_y6\"}\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [edbb3d44525b6ec79b0297128346d4b9, findElement {using=css selector, value=.\\_y6}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56716/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: edbb3d44525b6ec79b0297128346d4b9",
+      "time" : {
+        "start" : 1661503887027,
+        "stop" : 1661503897159,
+        "duration" : 10132
+      }
+    }, {
+      "uid" : "adf0a794022845db",
+      "status" : "broken",
+      "statusDetails" : "invalid cookie domain\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4c78045106a0278939ac80d2007a5a6b, addCookie {cookie=_ga=GA1.2.878109693.1661503639; path=/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56302}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56302/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4c78045106a0278939ac80d2007a5a6b",
+      "time" : {
+        "start" : 1661503717507,
+        "stop" : 1661503754034,
+        "duration" : 36527
+      }
+    }, {
+      "uid" : "41f8991da5716ef8",
+      "status" : "failed",
+      "statusDetails" : "Не та страница ==> expected: <Lorem: natalia6262 — ЖЖ> but was: <Lorem: natalia6262 — LiveJournal>",
+      "time" : {
+        "start" : 1661503250567,
+        "stop" : 1661503481174,
+        "duration" : 230607
+      }
+    }, {
+      "uid" : "c592a431fc66ebf5",
+      "status" : "broken",
+      "statusDetails" : "invalid cookie domain\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9bcec12e78b2373697315f488850295e, addCookie {cookie=_ga=GA1.2.723350533.1661503006; path=/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54828/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9bcec12e78b2373697315f488850295e",
+      "time" : {
+        "start" : 1661503078896,
+        "stop" : 1661503138780,
+        "duration" : 59884
+      }
+    }, {
+      "uid" : "fdb143e57d61dc13",
+      "status" : "broken",
+      "statusDetails" : "invalid cookie domain\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6c8fb9a112657f1f62700cd7f5551979, addCookie {cookie=_ga=GA1.2.747566207.1661502802; path=/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54412}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54412/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6c8fb9a112657f1f62700cd7f5551979",
+      "time" : {
+        "start" : 1661502812539,
+        "stop" : 1661502908155,
+        "duration" : 95616
+      }
+    }, {
+      "uid" : "e9774fd21b867d90",
+      "status" : "failed",
+      "statusDetails" : "Не та страница ==> expected: <Lorem: natalia6262 — ЖЖ> but was: <Lorem: natalia6262 — LiveJournal>",
+      "time" : {
+        "start" : 1661502513496,
+        "stop" : 1661502669073,
+        "duration" : 155577
+      }
+    }, {
+      "uid" : "670af23e971b27af",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".aentry-post__title-text\"}\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e739db0340adf32bed7b4dafab1a8c98, findElement {using=css selector, value=.aentry-post__title-text}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53370}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53370/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e739db0340adf32bed7b4dafab1a8c98",
+      "time" : {
+        "start" : 1661502286595,
+        "stop" : 1661502365230,
+        "duration" : 78635
+      }
+    }, {
+      "uid" : "169cf9d0135eba0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661095876715,
+        "stop" : 1661096051548,
+        "duration" : 174833
+      }
+    }, {
+      "uid" : "e3077044ea3fd6de",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".\\_y6\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4b166ce4362eb12092b6c7f1f3022bfa, findElement {using=css selector, value=.\\_y6}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65208}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65208/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4b166ce4362eb12092b6c7f1f3022bfa",
+      "time" : {
+        "start" : 1661095559842,
+        "stop" : 1661095711950,
+        "duration" : 152108
+      }
+    }, {
+      "uid" : "ac429800cdb551c7",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".\\_y6\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1a3e7a83ad240bea442fd93418d89478, findElement {using=css selector, value=.\\_y6}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64308/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1a3e7a83ad240bea442fd93418d89478",
+      "time" : {
+        "start" : 1661095254798,
+        "stop" : 1661095458290,
+        "duration" : 203492
+      }
+    }, {
+      "uid" : "c696f12d83f4a79f",
+      "status" : "failed",
+      "statusDetails" : "Tex0t not found! ==> expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1661095093245,
+        "stop" : 1661095156600,
+        "duration" : 63355
+      }
+    }, {
+      "uid" : "cf42710e4994d784",
+      "status" : "failed",
+      "statusDetails" : "Text not found!",
+      "time" : {
+        "start" : 1661094569362,
+        "stop" : 1661094774378,
+        "duration" : 205016
+      }
+    }, {
+      "uid" : "32e17ed188a5b902",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".aentry-post__title-text\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d8762032d19545623bf0d3c6f16d9e74, findElement {using=css selector, value=.aentry-post__title-text}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62279/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d8762032d19545623bf0d3c6f16d9e74",
+      "time" : {
+        "start" : 1661094255604,
+        "stop" : 1661094500604,
+        "duration" : 245000
+      }
+    }, {
+      "uid" : "baffd5b8fa84724c",
+      "status" : "failed",
+      "statusDetails" : "Страница не доступна ==> Unexpected exception thrown: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [708101dbcf1ce1ef2052fcb5c31b15d2, get {url=https://www.livejournal.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61590}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61590/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 708101dbcf1ce1ef2052fcb5c31b15d2",
+      "time" : {
+        "start" : 1661093914218,
+        "stop" : 1661094096560,
+        "duration" : 182342
+      }
+    }, {
+      "uid" : "e6535c4fd2bf7826",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661093476357,
+        "stop" : 1661093747258,
+        "duration" : 270901
+      }
+    }, {
+      "uid" : "b5bf572a3a90f2fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661093190069,
+        "stop" : 1661093301842,
+        "duration" : 111773
+      }
+    }, {
+      "uid" : "3a1531c474428626",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: By.cssSelector: .s-header-item__link--post (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58037}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58037/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9f29d9424da82ddaeaf6dd0af27b2b06",
+      "time" : {
+        "start" : 1661092691167,
+        "stop" : 1661092791545,
+        "duration" : 100378
+      }
+    }, {
+      "uid" : "f3cf85f43e22dffe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661091691429,
+        "stop" : 1661091736659,
+        "duration" : 45230
+      }
+    }, {
+      "uid" : "a90123fab1069d1e",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".\\_y6\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e4c698c080191cdd8c9900aad1ba22e6, findElement {using=css selector, value=.\\_y6}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55065/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e4c698c080191cdd8c9900aad1ba22e6",
+      "time" : {
+        "start" : 1661090771749,
+        "stop" : 1661091031741,
+        "duration" : 259992
+      }
+    }, {
+      "uid" : "1307298f8a3a71f4",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".\\_y6\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [52449cdd3a53bb9f9032977cfb9c736f, findElement {using=css selector, value=.\\_y6}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54333/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 52449cdd3a53bb9f9032977cfb9c736f",
+      "time" : {
+        "start" : 1661090511269,
+        "stop" : 1661090715306,
+        "duration" : 204037
+      }
+    }, {
+      "uid" : "d26db3493251cd1c",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".aentry-post__title-text\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9f6092d0eeac940d6ac185fae25304dd, findElement {using=css selector, value=.aentry-post__title-text}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53392/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9f6092d0eeac940d6ac185fae25304dd",
+      "time" : {
+        "start" : 1661090247972,
+        "stop" : 1661090399284,
+        "duration" : 151312
+      }
+    }, {
+      "uid" : "b337c83c21c03b35",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".s-header-item__link--post\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [bf78cf1572bbfffa28b0a081abf73193, findElement {using=css selector, value=.s-header-item__link--post}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51966}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51966/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bf78cf1572bbfffa28b0a081abf73193",
+      "time" : {
+        "start" : 1661089713056,
+        "stop" : 1661089744098,
+        "duration" : 31042
+      }
+    }, {
+      "uid" : "93baaf513d12da96",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".s-header-item__link--post\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [933c9c9006929e20b952fb35eae3f3f7, findElement {using=css selector, value=.s-header-item__link--post}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50959}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50959/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 933c9c9006929e20b952fb35eae3f3f7",
+      "time" : {
+        "start" : 1661089230023,
+        "stop" : 1661089389741,
+        "duration" : 159718
+      }
+    }, {
+      "uid" : "e158ca1f6c3fbfbc",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".s-header-item__link--post\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8cab6041b2a24320ce0f19d490036906, findElement {using=css selector, value=.s-header-item__link--post}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50450}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50450/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8cab6041b2a24320ce0f19d490036906",
+      "time" : {
+        "start" : 1661089053689,
+        "stop" : 1661089098749,
+        "duration" : 45060
+      }
+    }, {
+      "uid" : "3ef157a265096328",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".s-header-item__link--post\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0ed8f53d195c2762e021aa51de8bc6b0, findElement {using=css selector, value=.s-header-item__link--post}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49270}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49270/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0ed8f53d195c2762e021aa51de8bc6b0",
+      "time" : {
+        "start" : 1661088597362,
+        "stop" : 1661088722773,
+        "duration" : 125411
+      }
+    }, {
+      "uid" : "831df78564fcb97c",
+      "status" : "failed",
+      "statusDetails" : "Не та страница ==> expected: <Lorem:natalia6262-ЖЖ> but was: <Lorem: natalia6262 — ЖЖ>",
+      "time" : {
+        "start" : 1661088252066,
+        "stop" : 1661088528528,
+        "duration" : 276462
+      }
+    }, {
+      "uid" : "506606d319869ffd",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".\\_y6\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [20bb81dc2a9e251541c09ae966d52359, findElement {using=css selector, value=.\\_y6}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63875/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 20bb81dc2a9e251541c09ae966d52359",
+      "time" : {
+        "start" : 1661088112227,
+        "stop" : 1661088200500,
+        "duration" : 88273
+      }
+    }, {
+      "uid" : "177ab736b09f7eca",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".s-header-item__link--post\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [d11d9c395e6a47b2dc273c818fd3bb07, findElement {using=css selector, value=.s-header-item__link--post}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63600}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63600/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d11d9c395e6a47b2dc273c818fd3bb07",
+      "time" : {
+        "start" : 1661088027134,
+        "stop" : 1661088050871,
+        "duration" : 23737
+      }
+    }, {
+      "uid" : "c63cf5b2ae9611f4",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".s-header-item__link--post\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [a97068b7c7271cd623413d48e1b918af, findElement {using=css selector, value=.s-header-item__link--post}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62931}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62931/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a97068b7c7271cd623413d48e1b918af",
+      "time" : {
+        "start" : 1661087825702,
+        "stop" : 1661087935528,
+        "duration" : 109826
+      }
+    }, {
+      "uid" : "f41716a129e10b20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661087419968,
+        "stop" : 1661087655285,
+        "duration" : 235317
+      }
+    }, {
+      "uid" : "d70a165615ba8d33",
+      "status" : "failed",
+      "statusDetails" : "Не та страница ==> expected: <Lorem: natalia6262 — ЖЖ> but was: <Новая запись>",
+      "time" : {
+        "start" : 1661087126773,
+        "stop" : 1661087249988,
+        "duration" : 123215
+      }
+    }, {
+      "uid" : "c01e46c5e62ec769",
+      "status" : "failed",
+      "statusDetails" : "Страница не доступна ==> Unexpected exception thrown: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT\n  (Session info: chrome=104.0.5112.101)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [30d2ba60b44260fa0dac61622b03252b, get {url=https://www.livejournal.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60444/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 30d2ba60b44260fa0dac61622b03252b",
+      "time" : {
+        "start" : 1661086983532,
+        "stop" : 1661087029096,
+        "duration" : 45564
+      }
+    }, {
+      "uid" : "6ec22315534d9fe3",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".aentry-post__title-text\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [65a65e961f307d2bdb6fd6a09c3f3161, findElement {using=css selector, value=.aentry-post__title-text}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59864}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59864/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 65a65e961f307d2bdb6fd6a09c3f3161",
+      "time" : {
+        "start" : 1661086662713,
+        "stop" : 1661086741576,
+        "duration" : 78863
+      }
+    }, {
+      "uid" : "8dd79768c1ffadab",
+      "status" : "failed",
+      "statusDetails" : "Страница не доступна ==> Unexpected exception thrown: org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT\n  (Session info: chrome=104.0.5112.101)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [496efc9ce96b23cf3749376f17761162, get {url=https://www.livejournal.com/}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59383}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59383/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 496efc9ce96b23cf3749376f17761162",
+      "time" : {
+        "start" : 1661086268506,
+        "stop" : 1661086314131,
+        "duration" : 45625
+      }
+    }, {
+      "uid" : "36bc863ff58e8cdd",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".aentry-post__title-text\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [681c448cb34d92358206b9cd95710741, findElement {using=css selector, value=.aentry-post__title-text}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58293}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58293/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 681c448cb34d92358206b9cd95710741",
+      "time" : {
+        "start" : 1661086030336,
+        "stop" : 1661086178424,
+        "duration" : 148088
+      }
+    }, {
+      "uid" : "6497537934c64657",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".s-header-item__link--post\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8a044043d6b4128f071b5404ed64f72b, findElement {using=css selector, value=.s-header-item__link--post}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56145}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56145/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8a044043d6b4128f071b5404ed64f72b",
+      "time" : {
+        "start" : 1661085393621,
+        "stop" : 1661085484781,
+        "duration" : 91160
+      }
+    }, {
+      "uid" : "859a3b132105bdbe",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".s-header-item__link--post\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9382079cfa7cd674dbb77c36b5af25cf, findElement {using=css selector, value=.s-header-item__link--post}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55311/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9382079cfa7cd674dbb77c36b5af25cf",
+      "time" : {
+        "start" : 1661085134518,
+        "stop" : 1661085205071,
+        "duration" : 70553
+      }
+    }, {
+      "uid" : "182d76f152b6a643",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".\\_y6\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7b9b55a1f1aac047ade1e153dc8ce7b9, findElement {using=css selector, value=.\\_y6}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55099/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7b9b55a1f1aac047ade1e153dc8ce7b9",
+      "time" : {
+        "start" : 1661083144662,
+        "stop" : 1661083311842,
+        "duration" : 167180
+      }
+    }, {
+      "uid" : "bd0d9c6ed0987b5d",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".s-header-item__link--post\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [087008dae25a5e61182d01a195f09ed8, findElement {using=css selector, value=.s-header-item__link--post}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54785}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54785/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 087008dae25a5e61182d01a195f09ed8",
+      "time" : {
+        "start" : 1661082920357,
+        "stop" : 1661083061083,
+        "duration" : 140726
+      }
+    }, {
+      "uid" : "a87b8b9217e852d3",
+      "status" : "failed",
+      "statusDetails" : "Не та страница ==> expected: <Lorem> but was: <Lorem: natalia6262 — ЖЖ>",
+      "time" : {
+        "start" : 1661082734631,
+        "stop" : 1661082786274,
+        "duration" : 51643
+      }
+    }, {
+      "uid" : "26a81d8057d21e75",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".aentry-post__title-text\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1ee1e7b973dce444bab1f735e5dbb4ac, findElement {using=css selector, value=.aentry-post__title-text}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:62663}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62663/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1ee1e7b973dce444bab1f735e5dbb4ac",
+      "time" : {
+        "start" : 1661020157138,
+        "stop" : 1661020288051,
+        "duration" : 130913
+      }
+    }, {
+      "uid" : "d1ff35d636d131a5",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".\\_y6\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [16f2dc850e3fa882da898d7aec0bb0c8, findElement {using=css selector, value=.\\_y6}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61765/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 16f2dc850e3fa882da898d7aec0bb0c8",
+      "time" : {
+        "start" : 1661019766183,
+        "stop" : 1661020054731,
+        "duration" : 288548
+      }
+    }, {
+      "uid" : "105f882566cb137c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661019617921,
+        "stop" : 1661019661403,
+        "duration" : 43482
+      }
+    }, {
+      "uid" : "7b54027289533d6",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".s-header-item__link--login\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b3780e20cb1ae7061434c6c684c14278, findElement {using=css selector, value=.s-header-item__link--login}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61420}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61420/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b3780e20cb1ae7061434c6c684c14278",
+      "time" : {
+        "start" : 1661019527593,
+        "stop" : 1661019530672,
+        "duration" : 3079
+      }
+    }, {
+      "uid" : "565c6e78f2ec3115",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".s-header-item__link--login\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [7d47539e871796e60dbe2d693d032e40, findElement {using=css selector, value=.s-header-item__link--login}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61385/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7d47539e871796e60dbe2d693d032e40",
+      "time" : {
+        "start" : 1661019384724,
+        "stop" : 1661019388149,
+        "duration" : 3425
+      }
+    }, {
+      "uid" : "69567d923f2e4d1c",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".s-header-item__link--login\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [11ca7d03c6973ab33c0ef282c394e968, findElement {using=css selector, value=.s-header-item__link--login}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61307}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61307/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 11ca7d03c6973ab33c0ef282c394e968",
+      "time" : {
+        "start" : 1661019095230,
+        "stop" : 1661019105598,
+        "duration" : 10368
+      }
+    }, {
+      "uid" : "1a33882d2f8e6935",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".s-header-item__link--login\"}\n  (Session info: chrome=104.0.5112.101)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [6e3f8558da2a680986a9c745d12865f7, findElement {using=css selector, value=.s-header-item__link--login}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61239/devtoo..., se:cdpVersion: 104.0.5112.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6e3f8558da2a680986a9c745d12865f7",
+      "time" : {
+        "start" : 1661018977482,
+        "stop" : 1661018988656,
+        "duration" : 11174
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "65a36bc53a6c244b.json",
+  "parameterValues" : [ ]
+}

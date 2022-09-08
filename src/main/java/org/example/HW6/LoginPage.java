@@ -12,36 +12,38 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class LoginPage extends AbstractPage {
+public class LoginPage extends MainPage {
 
+    //поле ввода имя пользователя
+    @FindBy(id = "user")
+    private WebElement user;
+    //поле ввода имя пароля
+    @FindBy(id = "lj_loginwidget_password")
+    private WebElement password;
+    //кнопка "Войти"
+    @FindBy(css = ".b-loginform-btn--auth")
+    private WebElement submit;
 
-       @FindBy(id = "user")
-       private WebElement user;
+    public LoginPage(WebDriver driver) {
+        super(driver);
 
-       @FindBy(id = "lj_loginwidget_password")
-       private WebElement password;
+    }
 
-       @FindBy(css = ".b-loginform-btn--auth")
-       private WebElement submit;
-
-        public LoginPage(WebDriver driver){
-            super(driver);
-
-        }
-
-    public void loginIn(String user, String password){
+    public LoginPage loginIn(String user, String password) {
 
         Actions loginIn = new Actions(getDriver());
         loginIn
                 .click(this.user)
-                .sendKeys(this.user,user)
+                .sendKeys(this.user, user)
                 .click(this.password)
-                .sendKeys(this.password,password)
+                .sendKeys(this.password, password)
                 .click(this.submit)
                 .build()
                 .perform();
-
-        File file = new File("coockieLiveJournal.dat");
+        return new LoginPage(driver);
+    }
+}
+       /* File file = new File("coockieLiveJournal.dat");
         try {
             file.createNewFile();
             BufferedWriter writer = new BufferedWriter(new FileWriter(file));
@@ -54,7 +56,8 @@ public class LoginPage extends AbstractPage {
         } catch (IOException e) {
             System.out.println("Ошибка при записи куки - "+ e.getLocalizedMessage());
         }
-    }
+        return new LoginPage(driver);*/
 
-}
+
+
 

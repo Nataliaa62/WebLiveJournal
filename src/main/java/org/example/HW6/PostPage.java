@@ -5,31 +5,24 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-
+//заголовок поста
 public class PostPage extends AbstractPage {
-
-    @FindBy(css = ".s-header-item__link--post")
-    private WebElement writePost;
-
-
-    @FindBy(css = ".\\_y6")
+    @FindBy(css = ".text-0-2-176")
     private WebElement headerPost;
-
+//основной текст поста
     @FindBy(css = ".public-DraftStyleDefault-block")
     private WebElement textPost;
-
-
-    @FindBy(css = ".\\_129")
+//кнопка опубликовать
+    @FindBy(css = ".backgroundBlue-0-2-104 > .rootIn-0-2-98")
     private WebElement buttonToPublic;
-
-
-    @FindBy(css = ".\\_124")
+//кнопка некст
+    @FindBy(css = ".rootMaxWidth-0-2-99 > .rootIn-0-2-98")
     private WebElement buttonNext;
-
+//обновить
     @FindBy(css = ".aentry-post__title-text")
     private WebElement update;
-
-    @FindBy(css = ".\\_48 > .\\_49:nth-child(1)")
+//кнопка черновик
+    @FindBy(css = ".rootStartFromBorder-0-2-247 > .item-0-2-248:nth-child(1)")
     private WebElement buttonDraft;
 
 
@@ -37,8 +30,8 @@ public class PostPage extends AbstractPage {
         super(driver);
     }
 
-    public void createPost(String header, String text) {
-        writePost.click();
+    public void createPost(String header, String text) throws InterruptedException {
+       Thread.sleep(1000);
         headerPost.click();
         headerPost.sendKeys(header);
         textPost.click();
@@ -49,7 +42,6 @@ public class PostPage extends AbstractPage {
     }
 
     public void goToDraft() {
-        writePost.click();
         buttonDraft.click();
     }
 }

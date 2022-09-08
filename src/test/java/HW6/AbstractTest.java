@@ -1,16 +1,16 @@
 package HW6;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.example.HW6.LoginPage;
+import org.example.HW6.MainPage;
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-
 import java.io.*;
+
 import java.util.StringTokenizer;
 import java.util.concurrent.TimeUnit;
 
@@ -29,24 +29,14 @@ public abstract class AbstractTest {
         }
 
 
-    @BeforeAll
-    static  void writeCookiesToFile() {
+  @BeforeAll
+static void  writeCookiesToFile() {
 
-        webDriver.get("https://www.livejournal.com/");
+      getWebDriver().get("https://www.livejournal.com/");
+      Assertions.assertEquals("https://www.livejournal.com/", getWebDriver().getCurrentUrl(), "Не та страница");
+      new MainPage(getWebDriver()).clickBtnUserEnter();
+      new LoginPage(getWebDriver()).loginIn("natalia6262", "2Ea035");
 
-        WebElement webElement1 = webDriver.findElement(By.cssSelector(".s-header-item__link--login"));
-        webElement1.click();
-
-        WebElement webElement2 = webDriver.findElement(By.id("user"));
-        webElement2.click();
-        webElement2.sendKeys("natalia6262");
-
-        WebElement webElement3 = webDriver.findElement(By.id("lj_loginwidget_password"));
-        webElement3.click();
-        webElement3.sendKeys("2Ea035");
-
-        WebElement webElement4 = webDriver.findElement(By.cssSelector(".b-loginform-btn--auth"));
-        webElement4.click();
 
         File file = new File("coockieLiveJournal.dat");
         try {
@@ -63,10 +53,11 @@ public abstract class AbstractTest {
         }
     }
 
-
     //для обращения к драйверу из класса. Добавляем куки из файла в драйвер
-    public static WebDriver getDriver() {
 
+@BeforeEach
+   public void getDriver() {
+    getWebDriver().get("https://www.livejournal.com/");
         Cookie cookie = new Cookie("","");
 
         try {
@@ -85,21 +76,18 @@ public abstract class AbstractTest {
         } catch (Exception ex) {
             System.out.println("Ошибка при чтении куки - "+ ex.getLocalizedMessage());
         }
-
         webDriver.manage().addCookie(cookie);
-
-        return webDriver;
         }
 
 
-    /*    @AfterAll
-        public static void exit(){
+ /*@AfterEach
+        void exit(){
 
-            if(webDriver !=null) webDriver.quit();
+            if(webDriver !=null) webDriver.close();
         }*/
 
-        public WebDriver getWebDriver(){
-            return this.webDriver;
+    public static WebDriver getWebDriver(){
+            return webDriver;
         }
 }
 

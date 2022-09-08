@@ -1,0 +1,361 @@
+[ {
+  "uid" : "ef0d02411f4ba767",
+  "name" : "loginInSecond()",
+  "time" : {
+    "start" : 1662043585661,
+    "stop" : 1662043587765,
+    "duration" : 2104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a90c5a8f89c50eb0",
+  "name" : "testUserAgree()",
+  "time" : {
+    "start" : 1661535941693,
+    "stop" : 1661535955225,
+    "duration" : 13532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5fbeb7f46080144",
+  "name" : "[1] 9, 9, 8, 32.24",
+  "time" : {
+    "start" : 1660928137107,
+    "stop" : 1660928137205,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e0b78db49fb04af",
+  "name" : "cvvv()",
+  "time" : {
+    "start" : 1661507399416,
+    "stop" : 1661507441641,
+    "duration" : 42225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dff8fb4c2673d03c",
+  "name" : "testExceptionCheckNull()",
+  "time" : {
+    "start" : 1660928137459,
+    "stop" : 1660928137475,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b123267545722cfb",
+  "name" : "AddCookie()",
+  "time" : {
+    "start" : 1661253370597,
+    "stop" : 1661253430116,
+    "duration" : 59519
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1fce21495633b87",
+  "name" : "cookieTest()",
+  "time" : {
+    "start" : 1661252551790,
+    "stop" : 1661252703617,
+    "duration" : 151827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea4e48d0dbe457c",
+  "name" : "MainPageTest",
+  "time" : {
+    "start" : 1662195585877,
+    "stop" : 1662195585882,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e1f07ea4d9080472",
+  "name" : "testFavour()",
+  "time" : {
+    "start" : 1661535239941,
+    "stop" : 1661535284742,
+    "duration" : 44801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c07058f4b63b688",
+  "name" : "testLangSettings()",
+  "time" : {
+    "start" : 1661540592442,
+    "stop" : 1661540624127,
+    "duration" : 31685
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1bd32784599d0926",
+  "name" : "BBCMainPageTest",
+  "time" : {
+    "start" : 1662049638433,
+    "stop" : 1662049638435,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a21670517044225",
+  "name" : "changeLangSettingsTest()",
+  "time" : {
+    "start" : 1662189537187,
+    "stop" : 1662189543265,
+    "duration" : 6078
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "af2f797d31b15f28",
+  "name" : "testExceptionCheckSummSide()",
+  "time" : {
+    "start" : 1660928137506,
+    "stop" : 1660928137522,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c181b567b87563b",
+  "name" : "testDraft()",
+  "time" : {
+    "start" : 1661794852139,
+    "stop" : 1661794895545,
+    "duration" : 43406
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83decd06bfdd4140",
+  "name" : "loginInSecond1()",
+  "time" : {
+    "start" : 1662044115094,
+    "stop" : 1662044120713,
+    "duration" : 5619
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94d1d7b31ec775e1",
+  "name" : "hhhh()",
+  "time" : {
+    "start" : 1662061201267,
+    "stop" : 1662061204174,
+    "duration" : 2907
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ad3472ecbe6da0d2",
+  "name" : "toGoUserAgreeTest()",
+  "time" : {
+    "start" : 1662195889609,
+    "stop" : 1662196040585,
+    "duration" : 150976
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22cefb209f1a7b96",
+  "name" : "chL()",
+  "time" : {
+    "start" : 1662057662421,
+    "stop" : 1662057687523,
+    "duration" : 25102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65a36bc53a6c244b",
+  "name" : "testCreatePost()",
+  "time" : {
+    "start" : 1661535913227,
+    "stop" : 1661535941630,
+    "duration" : 28403
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd25ff574fcb11d7",
+  "name" : "testDraft()",
+  "time" : {
+    "start" : 1661535883202,
+    "stop" : 1661535912541,
+    "duration" : 29339
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc05d540398ffba8",
+  "name" : "cj()",
+  "time" : {
+    "start" : 1662057174194,
+    "stop" : 1662057223401,
+    "duration" : 49207
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bb4cfcbe5d886988",
+  "name" : "TestChangeLang",
+  "time" : {
+    "start" : 1661527861478,
+    "stop" : 1661527861542,
+    "duration" : 64
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "756b024e092f729c",
+  "name" : "testAuthorization()",
+  "time" : {
+    "start" : 1661259412849,
+    "stop" : 1661259489583,
+    "duration" : 76734
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91411b5625ee92e5",
+  "name" : "ChangeLanguageTest",
+  "time" : {
+    "start" : 1662056277178,
+    "stop" : 1662056277181,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1d2e63e94c37041b",
+  "name" : "testUserAgree()",
+  "time" : {
+    "start" : 1661794927308,
+    "stop" : 1661794943196,
+    "duration" : 15888
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "282ac195d8a6396b",
+  "name" : "test()",
+  "time" : {
+    "start" : 1660928137490,
+    "stop" : 1660928137506,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df543d02717c4be1",
+  "name" : "testChangeLang()",
+  "time" : {
+    "start" : 1661514406185,
+    "stop" : 1661514418885,
+    "duration" : 12700
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "682562eee68a1471",
+  "name" : "testLangMainMenu()",
+  "time" : {
+    "start" : 1661540517899,
+    "stop" : 1661540591700,
+    "duration" : 73801
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7643c8c7886a82ac",
+  "name" : "ChangeLanguageTest",
+  "time" : {
+    "start" : 1662189189924,
+    "stop" : 1662189189927,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "74e686135245dfee",
+  "name" : "clickToSport()",
+  "time" : {
+    "start" : 1662037785567,
+    "stop" : 1662037793372,
+    "duration" : 7805
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8850f9903141e4c2",
+  "name" : "testExceptionCheckNegativeNumber()",
+  "time" : {
+    "start" : 1660928137528,
+    "stop" : 1660928137528,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d017396f86593cf",
+  "name" : "changeLangMainMenTest()",
+  "time" : {
+    "start" : 1662189477012,
+    "stop" : 1662189532284,
+    "duration" : 55272
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2af5381b767edaa6",
+  "name" : "AppMain",
+  "time" : {
+    "start" : 1661530652006,
+    "stop" : 1661530652009,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f97ecff58b65466f",
+  "name" : "createPost()",
+  "time" : {
+    "start" : 1662049873936,
+    "stop" : 1662049923619,
+    "duration" : 49683
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2a03e55abfdf934",
+  "name" : "cvvv()",
+  "time" : {
+    "start" : 1661514654124,
+    "stop" : 1661514731838,
+    "duration" : 77714
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2b5e8d75b4866fa",
+  "name" : "testCreatePost()",
+  "time" : {
+    "start" : 1661794899265,
+    "stop" : 1661794927236,
+    "duration" : 27971
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

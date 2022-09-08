@@ -1,0 +1,60 @@
+{
+  "uid" : "ad3472ecbe6da0d2",
+  "name" : "toGoUserAgreeTest()",
+  "fullName" : "HW6.MainPageTest.toGoUserAgreeTest",
+  "historyId" : "8657ce710c83f725337a1540f987cf31",
+  "time" : {
+    "start" : 1662195889609,
+    "stop" : 1662196040585,
+    "duration" : 150976
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:HW6.MainPageTest]/[method:toGoUserAgreeTest()]"
+  }, {
+    "name" : "host",
+    "value" : "WIN-LD0UV456BN0"
+  }, {
+    "name" : "thread",
+    "value" : "8356@WIN-LD0UV456BN0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "HW6.MainPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "HW6.MainPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "toGoUserAgreeTest"
+  }, {
+    "name" : "suite",
+    "value" : "HW6.MainPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad3472ecbe6da0d2.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "b123267545722cfb",
+  "name" : "AddCookie()",
+  "fullName" : "HW5.AppMain.AddCookie",
+  "historyId" : "d8f6da79b6bd7d63d10a89ff709ff13b",
+  "time" : {
+    "start" : 1661253370597,
+    "stop" : 1661253430116,
+    "duration" : 59519
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:HW5.AppMain]/[method:AddCookie()]"
+  }, {
+    "name" : "host",
+    "value" : "WIN-LD0UV456BN0"
+  }, {
+    "name" : "thread",
+    "value" : "9544@WIN-LD0UV456BN0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "HW5.AppMain"
+  }, {
+    "name" : "testClass",
+    "value" : "HW5.AppMain"
+  }, {
+    "name" : "testMethod",
+    "value" : "AddCookie"
+  }, {
+    "name" : "suite",
+    "value" : "HW5.AppMain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b123267545722cfb.json",
+  "parameterValues" : [ ]
+}

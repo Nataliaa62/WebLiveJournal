@@ -1,0 +1,132 @@
+{
+  "uid" : "22cefb209f1a7b96",
+  "name" : "chL()",
+  "fullName" : "HW66.ChangeLanguageTest.chL",
+  "historyId" : "5d05d742559bd41ed126de9c32199590",
+  "time" : {
+    "start" : 1662057662421,
+    "stop" : 1662057687523,
+    "duration" : 25102
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:HW66.ChangeLanguageTest]/[method:chL()]"
+  }, {
+    "name" : "host",
+    "value" : "WIN-LD0UV456BN0"
+  }, {
+    "name" : "thread",
+    "value" : "15176@WIN-LD0UV456BN0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "HW66.ChangeLanguageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "HW66.ChangeLanguageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "chL"
+  }, {
+    "name" : "suite",
+    "value" : "HW66.ChangeLanguageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ad4ad243c6641cc1",
+      "status" : "failed",
+      "statusDetails" : "Смена языка не произошла ==> expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1662055514545,
+        "stop" : 1662055562700,
+        "duration" : 48155
+      }
+    }, {
+      "uid" : "12e70f12ee0bd9b3",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [5769b20383fdc0da5876fab356231f68, clickElement {id=a5abe115-e09f-4cb2-b55c-404fd9f286d8}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50573/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (5769b20383fdc0da5876fab356231f68)] -> css selector: .flaticon--bell > use]\nSession ID: 5769b20383fdc0da5876fab356231f68",
+      "time" : {
+        "start" : 1662055120599,
+        "stop" : 1662055126532,
+        "duration" : 5933
+      }
+    }, {
+      "uid" : "6550cf8476e5bc96",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [855cb640fccdbdf04a42dac99b342d93, clickElement {id=b307da74-78a0-4551-8bca-73557ee9fcc4}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49866}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49866/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (855cb640fccdbdf04a42dac99b342d93)] -> css selector: .flaticon--bell > use]\nSession ID: 855cb640fccdbdf04a42dac99b342d93",
+      "time" : {
+        "start" : 1662054868205,
+        "stop" : 1662054950573,
+        "duration" : 82368
+      }
+    }, {
+      "uid" : "a50a0fead3520e43",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [0a341e5181e4f5e1f3fec2fd323661e6, clickElement {id=2e4ce9cf-9f14-4b6f-9342-9fc2cd750842}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:65444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65444/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (0a341e5181e4f5e1f3fec2fd323661e6)] -> css selector: .notifications-header-link:nth-child(2)]\nSession ID: 0a341e5181e4f5e1f3fec2fd323661e6",
+      "time" : {
+        "start" : 1662054536006,
+        "stop" : 1662054559813,
+        "duration" : 23807
+      }
+    }, {
+      "uid" : "f04d1763af355e5",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#LJ__Setting__Language_lang\"}\n  (Session info: chrome=104.0.5112.102)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'WIN-LD0UV456BN0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f6efbf740eb787963603bbbcb07a8fc7, findElement {using=id, value=LJ__Setting__Language_lang}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\user\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64947}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64947/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f6efbf740eb787963603bbbcb07a8fc7",
+      "time" : {
+        "start" : 1662054121606,
+        "stop" : 1662054141699,
+        "duration" : 20093
+      }
+    }, {
+      "uid" : "4a31f2790b08c385",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1662053379132,
+        "stop" : 1662053437947,
+        "duration" : 58815
+      }
+    }, {
+      "uid" : "ebf36d70988225e7",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1662052989628,
+        "stop" : 1662052989989,
+        "duration" : 361
+      }
+    }, {
+      "uid" : "b99d47f52cb31851",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1662052556994,
+        "stop" : 1662052585704,
+        "duration" : 28710
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22cefb209f1a7b96.json",
+  "parameterValues" : [ ]
+}
