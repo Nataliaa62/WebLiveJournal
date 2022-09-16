@@ -1,4 +1,4 @@
-package org.example.HW6;
+package org.example.HW7;
 
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -70,6 +70,8 @@ public class MainPage extends AbstractPage {
     public UserAgreePage goToAgree() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click()", userAgree);
+        String fileName =  "test-case1-" + System.currentTimeMillis() + ".png";
+        MyUtils.makeScreenshot(driver,fileName);
         return new UserAgreePage(driver);
 
     }

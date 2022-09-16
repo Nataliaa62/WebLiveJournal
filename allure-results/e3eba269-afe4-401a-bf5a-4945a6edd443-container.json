@@ -1,1 +1,0 @@
-{"uuid":"e3eba269-afe4-401a-bf5a-4945a6edd443","name":"testDraft()","children":["a092b681-b7fd-463c-a549-c58b772dfd6d"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1662824204341,"stop":1662824233306}],"afters":[],"start":1662824203972,"stop":1662824292017}

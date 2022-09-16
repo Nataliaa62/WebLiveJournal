@@ -1,1 +1,0 @@
-{"uuid":"6b9b6479-453a-496b-b1d5-75d9cbb9c806","name":"toGoUserAgreeTest()","children":["d727c4a7-668b-4b8e-8b7e-ab8a28aa71db"],"befores":[{"name":"getDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1662825041566,"stop":1662825080765}],"afters":[],"start":1662825041560,"stop":1662825102114}

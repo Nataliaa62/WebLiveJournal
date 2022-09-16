@@ -43,21 +43,6 @@ public class LoginPage extends MainPage {
         return new LoginPage(driver);
     }
 }
-       /* File file = new File("coockieLiveJournal.dat");
-        try {
-            file.createNewFile();
-            BufferedWriter writer = new BufferedWriter(new FileWriter(file));
-            for (Cookie cookie : driver.manage().getCookies()) {
-                writer.write((cookie.getName() + ";" + cookie.getValue()));
-                writer.newLine();
-            }
-            writer.flush();
-            writer.close();
-        } catch (IOException e) {
-            System.out.println("Ошибка при записи куки - "+ e.getLocalizedMessage());
-        }
-        return new LoginPage(driver);*/
-
 
 
 

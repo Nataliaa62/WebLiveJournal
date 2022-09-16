@@ -1,1 +1,0 @@
-{"uuid":"beb46653-d0c4-4780-9cad-25142aa45757","name":"testCreatePost()","children":["3d33712b-64f7-438f-853e-ddec75950810"],"befores":[{"name":"goTo","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1662824293234,"stop":1662824345237}],"afters":[],"start":1662824293218,"stop":1662824349166}

@@ -1,10 +1,14 @@
-package HW6;
+package HW7;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.example.HW6.LoginPage;
-import org.example.HW6.MainPage;
+import org.apache.commons.io.FileUtils;
+import org.example.HW7.LoginPage;
+import org.example.HW7.MainPage;
+import org.example.HW7.MyUtils;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -46,8 +50,7 @@ static void  writeCookiesToFile() {
                 writer.write((cookie.getName() + ";" + cookie.getValue()));
                 writer.newLine();
             }
-            writer.flush();
-            writer.close();
+    writer.close();
         } catch (IOException e) {
             System.out.println("Ошибка при записи куки - "+ e.getLocalizedMessage());
         }
@@ -55,7 +58,7 @@ static void  writeCookiesToFile() {
 
     //для обращения к драйверу из класса. Добавляем куки из файла в драйвер
 
-@BeforeEach
+   @BeforeEach
    public void getDriver() {
     getWebDriver().get("https://www.livejournal.com/");
         Cookie cookie = new Cookie("","");
@@ -79,12 +82,27 @@ static void  writeCookiesToFile() {
         webDriver.manage().addCookie(cookie);
         }
 
+    @AfterEach
+    public void makeScreenshot() {
+        File screenshot = ((TakesScreenshot) webDriver).getScreenshotAs(OutputType.FILE);
+    //File file = MyUtils.makeScreenshot(getWebDriver(),"failure- org.example.bbc.MyShowTest.testFalse" + System.currentTimeMillis() + ".png"
 
- /*@AfterEach
+    try {
+        FileUtils.copyFile(screenshot, new File("./target/screenshot" + System.currentTimeMillis() + ".png"));
+    } catch (IOException exception) {
+        exception.printStackTrace();
+    }
+        }
+
+
+
+/*
+ @AfterEach
         void exit(){
 
-            if(webDriver !=null) webDriver.close();
-        }*/
+            if(webDriver !=null) webDriver.quit();
+        }
+*/
 
     public static WebDriver getWebDriver(){
             return webDriver;
